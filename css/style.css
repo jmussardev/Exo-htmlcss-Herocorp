@@ -34,7 +34,7 @@ article
     margin-right: 150px;
     padding: 20px;
 }
-h2, h3, figure
+article h2, article h3, article figure
 {
     text-align: center;
 }
@@ -58,7 +58,7 @@ h3
     color:rgb(165, 34, 34);
 }
 /* Aside principaux acteurs */
-aside
+#aside1
 {
     text-align: center;
 }
@@ -90,4 +90,13 @@ color:rgb(165, 34, 34);
 {
     background-color:  rgba(165, 34, 34, 0.884);
     color:rgb(240, 240, 240);
+}
+
+/* aside images de la série */
+
+.element img
+{
+    
+    width: 200px;
+    
 }
