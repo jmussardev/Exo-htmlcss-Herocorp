@@ -29,7 +29,7 @@ header span
 /* article */
 article
 {
-    background-color:  rgb(235, 235, 235);
+    background-color:  rgb(240, 240, 240);
     margin-left: 150px;
     margin-right: 150px;
     padding: 20px;
@@ -57,4 +57,37 @@ h3
 {
     color:rgb(165, 34, 34);
 }
+/* Aside principaux acteurs */
+aside
+{
+    text-align: center;
+}
 
+#acteurs p a
+{
+text-decoration: none;
+color:inherit;
+text-transform: uppercase;
+}
+#acteurs p
+{
+background-color: rgb(240, 240, 240);
+margin-left: 150px;
+margin-right: 150px;
+padding-top: 3px;
+padding-bottom: 3px;
+margin-top: 5px;
+margin-bottom: 5px;
+border-radius: 15px;
+color:rgb(165, 34, 34);
+}
+
+#acteurs p a:hover
+{
+    color:rgb(240, 240, 240);
+}
+#acteurs p:hover
+{
+    background-color:  rgba(165, 34, 34, 0.884);
+    color:rgb(240, 240, 240);
+}
