@@ -37,6 +37,7 @@ article
 article h2, article h3, article figure
 {
     text-align: center;
+    font-size: 1.7em;
 }
 article img
 {
@@ -57,10 +58,15 @@ h3
 {
     color:rgb(165, 34, 34);
 }
+
 /* Aside principaux acteurs */
 #aside1
 {
     text-align: center;
+}
+#aside1 h2
+{
+    font-size: 1.7em;
 }
 
 #acteurs p a
@@ -94,9 +100,52 @@ color:rgb(165, 34, 34);
 
 /* aside images de la série */
 
+#pictures
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.element 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(240, 240, 240);
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 250px;
+    height: 300px;
+}
+
 .element img
 {
-    
     width: 200px;
-    
+    height: 150px;
+}
+
+.element h3,
+.element p
+{
+    text-align: center;
+}
+
+#pictures h2
+{
+ font-size: 1.7em;
+ margin-bottom: 5px;
+}
+
+/* footer */
+footer
+{
+    text-align: center;
+    background-color:rgb(240, 240, 240) ;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
